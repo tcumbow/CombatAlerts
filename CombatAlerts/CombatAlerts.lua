@@ -20,7 +20,7 @@ CombatAlerts = {
 		maxCastMS = 4000,
 		projectileTimingAdjustment = 0.8,
 		castAlertsEnabled = true,
-		castAlertsSound = true,
+		castAlertsSound = false,
 		verboseCasts = false,
 		crshift = true,
 	},
