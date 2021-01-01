@@ -1,0 +1,1 @@
+robocopy .\CombatAlerts S:\CombatAlerts /mir
