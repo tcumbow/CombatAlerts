@@ -372,6 +372,7 @@ function CombatAlerts.CombatEvent( eventCode, result, isError, abilityName, abil
 	-- Perfect Roll ------------------------------------------------------------
 
 	if (result == ACTION_RESULT_BEGIN and targetType == COMBAT_UNIT_TYPE_PLAYER and CombatAlertsData.dodge.ids[abilityId]) then
+		if abilityId==113465 then zo_callLater(function() LibPixelControl.SetIndOnFor(LibPixelControl.VK_F10,50) end,700) end
 		local options = CombatAlertsData.dodge.ids[abilityId]
 		if (CombatAlerts.isVet or not options.vet) then
 			local offset = options.offset or 0
