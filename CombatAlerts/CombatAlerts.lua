@@ -2,7 +2,7 @@ CombatAlerts = {
 	name = "CombatAlerts",
 
 	title = "Combat Alerts",
-	version = "1.10.5",
+	version = "1.10.6",
 
 	slashCommand = "/cca",
 
@@ -574,6 +574,11 @@ function CombatAlerts.CombatEvent( eventCode, result, isError, abilityName, abil
 		CombatAlerts.AlertCast(abilityId, nil, hitValue, { -2, 2 })
 	elseif (result == ACTION_RESULT_EFFECT_GAINED and abilityId == CombatAlertsData.moonhunter.switch) then
 		CombatAlerts.Alert(nil, GetFormattedAbilityName(abilityId), 0xCC3366FF, SOUNDS.OBJECTIVE_DISCOVERED, 2500)
+
+
+	-- Blackrose Prison --------------------------------------------------------
+	elseif ((result == ACTION_RESULT_EFFECT_GAINED or result == ACTION_RESULT_EFFECT_GAINED_DURATION) and targetType == COMBAT_UNIT_TYPE_PLAYER and CombatAlertsData.brp.roots[abilityId] and hitValue == CombatAlertsData.brp.roots.duration) then
+		CombatAlerts.AlertCast(abilityId, nil, hitValue, { -2, 1 })
 
 
 	-- Frostvault --------------------------------------------------------------
