@@ -7,8 +7,8 @@
 ## Title: Code's Combat Alerts
 ## Description: Combat alerts for select PvE mechanics
 ## Author: @code65536
-## Version: 1.10.6
-## APIVersion: 100033
+## Version: 1.10.7
+## APIVersion: 100034
 ## SavedVariables: CombatAlertsSavedVariables
 
 GetFormattedAbilityName.lua
@@ -17,6 +17,9 @@ CombatAlertsData.lua
 CombatAlerts.xml
 
 ; Changelog:
+;
+; Version 1.10.7 (2021/03/08)
+; * Added support for Black Drake Villa and The Cauldron
 ;
 ; Version 1.10.6 (2021/01/12)
 ; * Added alert for Crushing Roots in Blackrose Prison

@@ -129,6 +129,24 @@ CombatAlertsData = {
 
 			[141622] = { -2, 2 }, -- Vateshran Hollows -- Clobber
 
+			[141457] = { -2, 2 }, -- Black Drake Villa -- Sunburst
+			[141958] = { -2, 2 }, -- Black Drake Villa -- Knuckle Duster
+			[142612] = { -3, 2 }, -- Black Drake Villa -- Fiery Blast
+			[142717] = { -2, 2, offset = -1500 }, -- Black Drake Villa -- Clobber
+			[143764] = { -3, 2 }, -- Black Drake Villa -- Gelid Globe
+			[150355] = { -2, 2 }, -- Black Drake Villa -- Freezing Bash
+			[150366] = { -2, 2, offset = -900 }, -- Black Drake Villa -- Ravaging Blow
+			[151647] = { -2, 2 }, -- Black Drake Villa -- Slice
+			[151651] = { -3, 2, true }, -- Black Drake Villa -- Targeted Salvo
+
+			[146142] = { -2, 2 }, -- The Cauldron -- Hammer Down
+			[146179] = { 0, 0, false, { 1, 0, 0.6, 0.4 } }, -- The Cauldron -- Galvanic Blow
+			[146677] = { -2, 2 }, -- The Cauldron -- Uppercut
+			[146681] = { -2, 2 }, -- The Cauldron -- Crush
+			[146747] = { -2, 2 }, -- The Cauldron -- Bludgeon
+			[151281] = { -2, 2 }, -- The Cauldron -- Uppercut
+			[151314] = { -2, 2 }, -- The Cauldron -- Monstrous Cleave
+
 			[73249] = { -2, 1 }, -- Maw of Lorkhaj -- Shattering Strike
 			[75682] = { -2, 1 }, -- Maw of Lorkhaj -- Deadly Claw
 			[90264] = { -2, 2 }, -- Halls of Fabrication -- Lightning Lunge
